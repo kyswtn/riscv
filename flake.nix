@@ -17,6 +17,7 @@
     {
       packages = forAllSupportedSystems (inputs: with inputs; {
         sail-riscv = pkgs.callPackage ./packages/sail-riscv.nix { };
+        spike = pkgs.callPackage ./packages/spike.nix { };
       });
 
       devShells = forAllSupportedSystems (inputs: with inputs; {

@@ -1,1 +1,2 @@
 - [sail-riscv](https://github.com/riscv/sail-riscv)
+- [spike](https://github.com/riscv-software-src/riscv-isa-sim)
